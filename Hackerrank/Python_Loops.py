@@ -29,3 +29,6 @@ i=0
 while(i<a):
     print(i**2)
     i+=1
+
+#Another method
+#print(*[i**2 for i in range(a)], sep='\n')
