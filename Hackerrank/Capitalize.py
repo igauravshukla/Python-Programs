@@ -25,8 +25,8 @@ Chris Alan
 def solve(s):
     return s.title()
 
-#Method 2
 '''
+#Method 2
 def solve(s):
     for x in s[:].split():
         s = s.replace(x,x.capitalize())
